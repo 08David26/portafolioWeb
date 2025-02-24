@@ -1,0 +1,164 @@
+.bar-red {
+    width: 90%;
+    background-color: rgba(216, 42, 42, 0.949);
+    color: rgba(216, 42, 42, 0.949);    
+}
+
+nav {
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+nav h3 a h3{
+    align-items: center;
+    margin-left: 70px;
+    color: black;
+}
+
+nav ul {
+    gap: 50px;
+    margin-right: 3%;
+}
+
+nav ul li {
+    background-color: gainsboro;    
+}
+
+.containerContent {
+    display: flex;         
+    align-items: center; 
+    font-family: fantasy;
+    margin-top: 100px;
+    margin-left: 60%;
+    letter-spacing: 10px;
+}
+
+.icon-acerca {
+    width: 50px;                
+    height: auto;  
+    margin-right: 20px;  
+    margin-left: 50px;       
+}
+
+.content-info{
+    display: flex;
+    height: 1200px;
+    width: 100%;
+    margin-top: 50px;
+    font-family: fantasy;
+    letter-spacing: 5px;
+}
+
+.name-juan{
+
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+.function-multi{
+    height: 100px;
+    margin-top: 70px;
+    margin-left: -30%;
+}
+
+.rotar-imagen{
+    margin-top: 60px;
+    margin-left: -40px;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    transform: rotate(269deg);
+}
+
+.fotog{
+
+    height: 200px;
+    width: 200px;
+    margin-left: -40%;
+    margin-top: 50%;
+}
+
+.fotog h3{
+    margin-top: 4%;
+    margin-left: 10px;
+}
+
+.icon-foto{
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 150px;
+}
+
+/* Guion */
+
+.guion{
+
+    height: 200px;
+    width: 200px;
+    margin-left: 8%;
+    margin-top: 60%;
+}
+
+.guion h3{
+    margin-top: 4%;
+    margin-left: 20px;
+}
+
+.icon-guion{
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 150px;
+}
+
+/* diseño web */
+
+.diseñow{
+    height: 200px;
+    width: 260px;
+    margin-left: 5%;
+    margin-top: 60%;
+}
+
+.diseñow h3{
+    margin-top: 4%;
+    margin-left: 30px;
+}
+
+.icon-diseñow{
+    margin-left: 50px;
+    margin-top: 10px;
+    height: 150px;
+}
+
+
+/* ADOBE */
+.adob{
+    height: 200px;
+    width: 250px;
+    margin-left: 5%;
+    margin-top: 50%;
+}
+
+.adob h3{
+    margin-top: 4%;
+    margin-left: 20px;
+}
+
+.icon-adob{
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 150px;
+}
+
+.fin-red {
+    margin-top: 876px;
+    margin-left: -375px;
+    width: 90%;
+    height: 29px;
+    background-color: rgba(216, 42, 42, 0.949);
+    color: rgba(216, 42, 42, 0.949);    
+}
+.rotar-imagen{
+    margin-left: 100px;
+}

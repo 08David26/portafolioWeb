@@ -1,0 +1,72 @@
+.bar-red {
+    width: 90%;
+    background-color: rgba(216, 42, 42, 0.949);
+    color: rgba(216, 42, 42, 0.949);    
+}
+
+nav {
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+nav h3 a h3{
+    align-items: center;
+    margin-left: 70px;
+    color: black;
+}
+
+
+nav ul {
+    gap: 50px;
+    margin-right: 3%;
+}
+
+nav ul li {
+    background-color: gainsboro;    
+}
+
+.containerContent {
+    display: flex;         
+    align-items: center; 
+    font-family: fantasy;
+    margin-top: 100px;
+    margin-left: 60%;
+    letter-spacing: 10px;
+}
+
+.icon-acerca {
+    width: 50px;                
+    height: auto;  
+    margin-right: 20px;         
+}
+
+.content-history h2{
+    display: flex;         
+    align-items: center; 
+    font-family: fantasy;
+    margin-top: 200px;
+    margin-left: 20%;
+    letter-spacing: 10px;
+
+}
+.content-history p {
+    margin-left: 10%;
+    margin-top: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    height: 50%;
+    width: 50%;
+}
+.content-history h3 {
+    display: flex;         
+    align-items: center; 
+    margin-top: 50px;
+    margin-left: 10%;
+    letter-spacing: 3px;
+}
+.imagen1 {
+    width: 50%;
+    margin-left: 20%;
+    padding-top: 50px;
+}

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Druk Wide Bold';
+    src: url('DrukWideBold.ttf') format('woff2'),
+         url('DrukWideBold.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.bar-red {
+    width: 90%;
+    background-color: rgba(216, 42, 42, 0.949);
+    color: rgba(216, 42, 42, 0.949);    
+}
+
+nav {
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+nav h3 a h3{
+    align-items: center;
+    margin-left: 70px;
+    color: black;
+}
+
+
+nav ul {
+    gap: 50px;
+    margin-right: 3%;
+}
+
+nav ul li {
+    background-color: gainsboro;    
+}
+
+.containerContent {
+    display: flex;         
+    align-items: center; 
+    font-family: fantasy;
+    margin-top: 100px;
+    margin-left: 60%;
+    letter-spacing: 10px;
+}
+
+.icon-acerca {
+    width: 50px;                
+    height: auto;  
+    margin-right: 20px;         
+}
+
+body {
+    margin: 0;
+    padding: 0; 
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.blog-content {
+    padding: 20px;
+    max-width: 100%; 
+    box-sizing: border-box; 
+    font-family: 'Druk Wide Bold';
+}
+
+.blog-content h1 {
+    font-size: 2.5em;
+    color: #000;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.blog-content h2 {
+    font-size: 1.8em;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.img1 {margin-left: 30%;}
+
+.blog-content .titulo1 {text-align: center;}
+
+.blog-content p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.blog-content article {
+    margin-top: 300px;
+}
+
+.image-text-container {
+    display: flex; 
+    align-items: flex-start; 
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.image-text-container img {
+    max-width: 40%; 
+    height: auto; 
+}
+
+.text-content {
+    flex: 1; 
+    padding-left: 60px;
+}
+
+.text-content h4 {
+    margin-top: 0; 
+}
+
+.blog-content article h3 {
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.blog-content article h4 {
+    font-size: 1.3em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.blog-content article ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.blog-content article ul li {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
