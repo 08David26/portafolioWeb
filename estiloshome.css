@@ -1,43 +1,68 @@
-body{
+body {
     background-color: rgba(216, 42, 42, 0.949);
+    margin: 0;
+    padding: 0;
 }
 
-.vertical-menu{
-    height:550px;
-    margin-left: 40%;
+.vertical-menu {
+    height: auto; /* Cambiamos la altura fija a automática */
+    margin-left: 0; /* Eliminamos el margen izquierdo */
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center; /* Centramos los elementos */
+    padding: 20px 0; /* Añadimos un poco de espacio */
 }
 
 .vertical-menu a {
-    padding: 33px 0;
+    padding: 15px 0; /* Reducimos el padding */
     text-decoration: none;
     color: white;
-    font-size: 28px;
-    font-family:fantasy;
-    letter-spacing: 3px;
-    margin-right: 150px;   
+    font-size: 20px; /* Reducimos el tamaño de la fuente */
+    font-family: fantasy;
+    letter-spacing: 2px; /* Reducimos el espaciado */
+    margin-right: 0; /* Eliminamos el margen derecho */
 }
 
 .vertical-menu a:hover {
     color: black;
 }
 
-.studi{
-
-    height: 100px;
-    width: 20%;
-    margin-top: -9%;
-    margin-left: 5%;
+.studi {
+    height: auto; /* Cambiamos la altura fija a automática */
+    width: 100%; /* Ocupa todo el ancho */
+    margin-top: 20px; /* Ajustamos el margen superior */
+    margin-left: 0; /* Eliminamos el margen izquierdo */
     text-align: center;
 }
 
-.studi h2{
+.studi h2 {
     color: white;
-    font-size: 28px;
-    font-family:fantasy;
-    letter-spacing: 3px;
+    font-size: 24px; /* Reducimos el tamaño de la fuente */
+    font-family: fantasy;
+    letter-spacing: 2px; /* Reducimos el espaciado */
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    .vertical-menu a {
+        font-size: 18px; /* Tamaño de fuente más pequeño para móviles */
+        padding: 10px 0; /* Menos padding */
+    }
+
+    .studi h2 {
+        font-size: 20px; /* Tamaño de fuente más pequeño para móviles */
+    }
+}
+
+@media (max-width: 480px) {
+    .vertical-menu a {
+        font-size: 16px; /* Tamaño de fuente aún más pequeño para pantallas muy pequeñas */
+        padding: 8px 0; /* Menos padding */
+    }
+
+    .studi h2 {
+        font-size: 18px; /* Tamaño de fuente más pequeño para pantallas muy pequeñas */
+    }
 }
 
 

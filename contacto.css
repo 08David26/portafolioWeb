@@ -1,88 +1,94 @@
+/* Estilos generales */
 .bar-red {
-    width: 90%;
+    width: 100%; /* Ocupa todo el ancho */
+    height: 10px; /* Altura reducida */
     background-color: rgba(216, 42, 42, 0.949);
-    color: rgba(216, 42, 42, 0.949);    
 }
 
 nav {
     font-family: fantasy;
-    font-size: 20px;
-    letter-spacing: 5px;
-    align-items: center;
+    font-size: 18px; /* Tamaño de fuente reducido */
+    letter-spacing: 3px; /* Espaciado reducido */
+    padding: 10px 0; /* Padding para mejor espaciado */
 }
 
-
-nav h3 a h3{
-    align-items: center;
-    margin-left: 70px;
+nav h3 a {
     color: black;
+    text-decoration: none;
+    margin-left: 20px; /* Margen reducido */
 }
-
 
 nav ul {
-    gap: 50px;
-    margin-right: 3%;
+    gap: 20px; /* Espacio entre elementos reducido */
+    margin-right: 10px; /* Margen reducido */
 }
 
 nav ul li {
-    background-color: gainsboro;    
+    background-color: gainsboro;
+    padding: 5px 10px; /* Padding reducido */
 }
 
 .containerContent {
-    display: flex;         
-    align-items: center; 
+    display: flex;
+    align-items: center;
     font-family: fantasy;
-    margin-top: 100px;
-    margin-left: 60%;
-    letter-spacing: 10px;
+    margin-top: 50px; /* Margen reducido */
+    margin-left: 20%; /* Margen reducido */
+    letter-spacing: 5px; /* Espaciado reducido */
+    flex-direction: column; /* Cambio a columna en móviles */
+    text-align: center; /* Texto centrado */
 }
 
 .icon-contacto {
-    width: 80px;                
-    height: auto;  
-    margin-right: 20px;         
+    width: 60px; /* Tamaño reducido */
+    height: auto;
+    margin-right: 10px; /* Margen reducido */
 }
 
-
-.conten-info-contact{
-    display: flex;         
+.conten-info-contact {
+    display: flex;
     background-color: black;
     color: white;
     width: 100%;
-    height: 200px;
+    height: auto; /* Altura automática */
     margin-top: 30px;
-    
+    justify-content: center; /* Centramos el contenido */
+    align-items: center; /* Centramos el contenido */
 }
 
-.title{
-    margin-left: 24%;
-    margin-top: 60px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.title {
+    margin-left: 0; /* Centramos el título */
+    margin-top: 30px; /* Margen reducido */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 3px;
-
+    text-align: center; /* Texto centrado */
 }
 
-.redes{
+.redes {
     background-color: black;
     display: flex;
-    height: 905px;
+    height: auto; /* Altura automática */
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center; /* Centramos el contenido */
+    align-items: center; /* Centramos el contenido */
+    padding: 20px 0; /* Padding para mejor espaciado */
 }
 
-.redes ul{
-    list-style-type: none; 
-    margin-left: 10%;
+.redes ul {
+    list-style-type: none;
+    margin-left: 0; /* Centramos la lista */
+    padding: 0; /* Eliminamos el padding */
 }
 
 .redes ul li {
-    margin-bottom: 100px;
+    margin-bottom: 30px; /* Margen reducido */
+    text-align: center; /* Texto centrado */
 }
 
 .redes ul li a h2 {
-    margin-left: 80%;
-    margin-top: -70px;
+    margin-left: 0; /* Centramos el texto */
+    margin-top: 10px; /* Margen reducido */
 }
 
 a {
@@ -91,17 +97,60 @@ a {
     letter-spacing: 3px;
 }
 
-
 .social-icon {
-    width: 100px;                 
-    height: auto;               
+    width: 80px; /* Tamaño reducido */
+    height: auto;
 }
 
 .fin-red {
-    margin-top: 876px;
-    margin-left: -375px;
-    width: 90%;
-    height: 29px;
+    margin-top: 30px; /* Margen reducido */
+    margin-left: 0; /* Centramos la barra roja */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 10px; /* Altura reducida */
     background-color: rgba(216, 42, 42, 0.949);
-    color: rgba(216, 42, 42, 0.949);    
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    nav {
+        font-size: 16px; /* Tamaño de fuente más pequeño */
+    }
+
+    .containerContent {
+        margin-left: 10%; /* Margen reducido */
+    }
+
+    .title h2 {
+        font-size: 1.5em; /* Tamaño de fuente más pequeño */
+    }
+
+    .redes ul li a h2 {
+        font-size: 1.2em; /* Tamaño de fuente más pequeño */
+    }
+
+    .social-icon {
+        width: 60px; /* Tamaño reducido */
+    }
+}
+
+@media (max-width: 480px) {
+    nav h3 a {
+        margin-left: 10px; /* Margen reducido */
+    }
+
+    .containerContent {
+        margin-left: 5%; /* Margen reducido */
+    }
+
+    .title h2 {
+        font-size: 1.3em; /* Tamaño de fuente más pequeño */
+    }
+
+    .redes ul li a h2 {
+        font-size: 1em; /* Tamaño de fuente más pequeño */
+    }
+
+    .social-icon {
+        width: 50px; /* Tamaño reducido */
+    }
 }

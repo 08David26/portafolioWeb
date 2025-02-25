@@ -1,72 +1,115 @@
+/* Estilos generales */
 .bar-red {
-    width: 90%;
+    width: 100%; /* Ocupa todo el ancho */
+    height: 10px; /* Altura reducida */
     background-color: rgba(216, 42, 42, 0.949);
-    color: rgba(216, 42, 42, 0.949);    
 }
 
 nav {
     font-family: fantasy;
-    font-size: 20px;
-    letter-spacing: 5px;
+    font-size: 18px; /* Tamaño de fuente reducido */
+    letter-spacing: 3px; /* Espaciado reducido */
+    padding: 10px 0; /* Padding para mejor espaciado */
 }
 
-nav h3 a h3{
-    align-items: center;
-    margin-left: 70px;
+nav h3 a {
     color: black;
+    text-decoration: none;
+    margin-left: 20px; /* Margen reducido */
 }
-
 
 nav ul {
-    gap: 50px;
-    margin-right: 3%;
+    gap: 20px; /* Espacio entre elementos reducido */
+    margin-right: 10px; /* Margen reducido */
 }
 
 nav ul li {
-    background-color: gainsboro;    
+    background-color: gainsboro;
+    padding: 5px 10px; /* Padding reducido */
 }
 
 .containerContent {
-    display: flex;         
-    align-items: center; 
+    display: flex;
+    align-items: center;
     font-family: fantasy;
-    margin-top: 100px;
-    margin-left: 60%;
-    letter-spacing: 10px;
+    margin-top: 50px; /* Margen reducido */
+    margin-left: 20%; /* Margen reducido */
+    letter-spacing: 5px; /* Espaciado reducido */
+    flex-direction: column; /* Cambio a columna en móviles */
+    text-align: center; /* Texto centrado */
 }
 
 .icon-acerca {
-    width: 50px;                
-    height: auto;  
-    margin-right: 20px;         
+    width: 40px; /* Tamaño reducido */
+    height: auto;
+    margin-right: 10px; /* Margen reducido */
 }
 
-.content-history h2{
-    display: flex;         
-    align-items: center; 
+.content-history h2 {
     font-family: fantasy;
-    margin-top: 200px;
-    margin-left: 20%;
-    letter-spacing: 10px;
+    margin-top: 50px; /* Margen reducido */
+    margin-left: 10%; /* Margen reducido */
+    letter-spacing: 5px; /* Espaciado reducido */
+    text-align: center; /* Texto centrado */
+}
 
-}
 .content-history p {
-    margin-left: 10%;
-    margin-top: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%; /* Margen reducido */
+    margin-top: 20px; /* Margen reducido */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
-    height: 50%;
-    width: 50%;
+    width: 90%; /* Ancho reducido */
 }
+
 .content-history h3 {
-    display: flex;         
-    align-items: center; 
-    margin-top: 50px;
-    margin-left: 10%;
-    letter-spacing: 3px;
+    margin-top: 30px; /* Margen reducido */
+    margin-left: 5%; /* Margen reducido */
+    letter-spacing: 2px; /* Espaciado reducido */
 }
+
 .imagen1 {
-    width: 50%;
-    margin-left: 20%;
-    padding-top: 50px;
+    width: 90%; /* Ancho reducido */
+    margin-left: 5%; /* Margen reducido */
+    padding-top: 20px; /* Padding reducido */
+}
+
+/* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+    nav {
+        font-size: 16px; /* Tamaño de fuente más pequeño */
+    }
+
+    .containerContent {
+        margin-left: 10%; /* Margen reducido */
+    }
+
+    .content-history h2 {
+        margin-left: 5%; /* Margen reducido */
+    }
+
+    .content-history p {
+        width: 100%; /* Ocupa todo el ancho */
+    }
+
+    .imagen1 {
+        width: 100%; /* Ocupa todo el ancho */
+    }
+}
+
+@media (max-width: 480px) {
+    nav h3 a {
+        margin-left: 10px; /* Margen reducido */
+    }
+
+    .containerContent {
+        margin-left: 5%; /* Margen reducido */
+    }
+
+    .content-history h2 {
+        font-size: 20px; /* Tamaño de fuente más pequeño */
+    }
+
+    .content-history p {
+        font-size: 14px; /* Tamaño de fuente más pequeño */
+    }
 }
